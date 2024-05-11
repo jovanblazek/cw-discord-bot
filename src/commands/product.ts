@@ -108,7 +108,7 @@ export default class ProductCommand extends SlashCommand {
   }
 
   async run(ctx: CommandContext) {
-    ctx.defer()
+    ctx.defer(true)
     const products = await fetch(`https://dummyjson.com/products/category/${ctx.options.category}`).then((res) =>
       res.json<ProductsResponse>()
     )
