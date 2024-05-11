@@ -1,1 +1,1 @@
-export const commands = [require('./commands/hello')];
+export const commands = [require('./commands/hello'), require('./commands/product')]

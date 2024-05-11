@@ -33,7 +33,8 @@ module.exports = {
         destructuring: 'all'
       }
     ],
-    'spaced-comment': 'warn'
+    'spaced-comment': 'warn',
+    curly: ['error', 'all']
   },
   overrides: [
     {
@@ -43,4 +44,4 @@ module.exports = {
       }
     }
   ]
-};
+}
