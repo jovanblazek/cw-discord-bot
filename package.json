@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler publish",
+    "deploy": "wrangler deploy",
     "sync": "slash-up sync",
     "sync:dev": "slash-up sync -e development",
     "lint": "eslint --ext .ts .",
